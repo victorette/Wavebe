@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <title>Bar Code Scanner</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+	<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+	<script type="text/javascript" src="barcodescanner.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </head>
+  <body id="stage" class="theme">
+    <h1>Barcode Scanner and Encoder</h1>
+    <h2>PhoneGap Barcode Scanner Plugin</h2>
+    
+    <a href="#" class="btn" onclick="scanCode();">Scan Code</a>
+    
+    <a href="#" class="btn enc" onclick="encodeText();">Encode Text</a> 
+    <a href="#" class="btn enc" onclick="encodeEmail();">Encode Email</a>   
+    <a href="#" class="btn enc" onclick="encodePhone();">Encode Phone</a>   
+    <a href="#" class="btn enc" onclick="encodeSMS();">Encode SMS</a>   
+  </body>
+</html>
